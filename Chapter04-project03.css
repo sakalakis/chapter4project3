@@ -1,0 +1,59 @@
+legend {
+    background-color: rgb(255, 255, 255);
+    text-align: center;
+    width: 90%;
+}
+.p1
+{
+    padding-left: 270px;
+    
+}
+    
+.f1 {
+    margin-right: 400px;
+    margin-top: 20px;
+    margin-bottom: 1px;
+    margin-left: 400px;
+    padding: 5px ;
+}
+.f2
+{
+    border-color: rgb(95, 202, 221);
+}
+.input1
+{
+    width: 70%;
+}
+.input2
+{
+    width: 150%;
+}
+.td1
+{
+    padding-left: 200px;
+}
+.td2
+{
+    padding-left: 200px;
+    padding-top: 100px;
+}
+.c1
+{
+    background-color: blueviolet;
+    border-color: blue;
+    color: aliceblue;
+
+}
+.tb2
+{
+    margin-bottom: 50px;
+    
+}
+.tb1
+{
+    padding: 1px;
+}
+.l1
+{
+    width: 120%;
+}

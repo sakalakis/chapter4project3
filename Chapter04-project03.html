@@ -1,0 +1,99 @@
+<form method="get" action="http://www.randyconnolly.com/tests/process.php">
+    <link rel="stylesheet" href="Chapter04-project03.css">
+    
+    <fieldset class="f1">
+        <legend><b>Photo Details</b></legend>
+        <p>
+        <label>Title</label> </br>
+        <input class="input1" type="text" name="title" />
+    </p>
+    <p>
+        <label>Description</label> </br>
+        <textarea></textarea>
+    </p>
+    
+    <table class="tb1">
+        <tr class="tb2">
+            <td >
+               <p>
+                <label>Country</label><br/>
+                <select name="country">
+                    <option>Choose continent</option>
+                    <option>North America</option>
+                    <option>Europe</option>
+                    <option>South AMerica</option>
+                </select>
+               </p>
+               <p>
+        
+                    <label>Continent</label><br/>
+                    <select name="continent">
+                        <option>Choose Country</option>
+                        <option>Canada</option>
+                        <option>Greece</option>
+                        <option>Argentina</option>
+                    </select>
+                   
+               </p>
+               <p>
+                   <label>City</label><br/>
+                   <input class="input2" type="text" name="city">
+               </p>
+
+            </td>
+            <td class="td1">
+                <fieldset class="f2">
+                    <p>
+                        Copyright? <br/>
+                        <input type="radio" name="copyright" value="1">All rights reserved <br/>
+                        <input type="radio" name="copyright" value="2">Creative Commons <br/>
+                    </p>
+                </fieldset>
+                    <p>
+                        <fieldset class="f2">
+                        Creative Commons Types <br/>
+                        <input type="checkbox" name="cc">Attribution <br/>
+                        <input type="checkbox" name="cc">Noncommercial <br/>
+                        <input type="checkbox" name="cc">No Derivative Works <br/>
+                        <input type="checkbox" name="cc">Share Alike <br/>
+                    </p>
+                </fieldset>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <p>
+                <label class="l1">I accept the software licence</label>
+                <input type="checkbox" name="accept">
+                </p>
+                <p>
+                    <label">Rate this photo:</label> <br/>
+                    <input type="number" min="1" max="5" name="rate">
+                </p>
+                <p>
+                    <label">Color Collection:</label> <br/>
+                    <input type="color" name="color" >
+                </p>
+                <td class="td2"> 
+                    <fieldset class="f2">
+                        <p>
+                            <label>Date Taken:</label> <br/>
+                            <input type="date" name="date">
+                        </p>
+                        <p>
+                            <label>Time Taken:</label> <br/>
+                            <input type="time" name="time" >
+                        </p>
+                    </fieldset>
+                </td>
+            </td>
+
+        </tr>
+    </table>
+    <p class="p1">
+    <input class="c1" type="submit" /> 
+    <input class="c1" type="button" value="Clear Form" />
+</p>
+
+</fieldset>
+</form>
